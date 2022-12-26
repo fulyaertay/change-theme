@@ -1,14 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change Theme with Tailwind CSS</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" src="./styles.css">
 </head>
-<body>
-    <div class="bg-purple-500">Hello</div>
+<body class="bg-white min-h-screen">
+    <div class="flex items-center justify-center">
+        <div class="mt-10 bg-gray-100 rounded shadow border border-gray-400 p-9 max-w-md text-center">
+            <h5 class="text-3xl font-bold mb-4 mt-0 text-black">TailwindCSS Change Theme</h5>
+            <!-- there are two options to change theme-->
+            <p class="text-gray-500 text-md font-medium">Prefers Color Schema ('media') | Manually ('class')</p>
+            <button class="mt-6 text-sm bg-purple-700 p-3 border border-purple-600 text-white rounded">
+                Let's Start
+            </button>
+        </div>
+    </div>
+    
     
 </body>
 </html>
